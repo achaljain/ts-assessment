@@ -1,6 +1,7 @@
 /**
  * Problem:
  * Define a type Person with properties - name (string), age (number)
+ * Name is mandatory, Age is optional
  * Write a function that takes array of Person objects and return the persons with age less than 10.
  */
 
