@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "start": "npx eslint index.ts && jest"
+    "lint": "npx eslint src",
+    "types": "tsc",
+    "test": "jest",
+    "start": "npm run lint; npm run types; npm run test"
   },
   "devDependencies": {
     "@types/jest": "^29.5.4",

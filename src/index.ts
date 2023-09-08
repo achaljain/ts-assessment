@@ -16,9 +16,8 @@ function printPerson(p: Person[]): Person[] {
 
 /** DO NOT REMOVE MAIN FUNCTION **/
 
-/* Start program execution */
+/* Start program execution: Call your starting method inside main */
 export function main(testParam: Person[]): Person[] {
-  // Call your method here.
   const result = printPerson(testParam);
   return result;
 }
